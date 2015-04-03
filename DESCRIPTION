@@ -1,8 +1,8 @@
 Package: EFDR
 Type: Package
 Title: Wavelet-Based Enhanced FDR for Signal Detection in Noisy Images
-Version: 0.1.0
-Date: 2014-10-22
+Version: 0.1.1
+Date: 2015-04-03
 Authors@R: c(person("Andrew", "Zammit-Mangion", role = c("aut", "cre"),
     email = "andrewzm@gmail.com"),
     person("Hsin-Cheng", "Huang", role = "aut"))
@@ -27,9 +27,9 @@ Depends: R (>= 3.0)
 VignetteBuilder: knitr
 License: GPL (>= 2)
 NeedsCompilation: no
-Packaged: 2015-01-14 05:30:49 UTC; andrew
+Packaged: 2015-04-04 07:37:08 UTC; andrew
 Author: Andrew Zammit-Mangion [aut, cre],
   Hsin-Cheng Huang [aut]
 Maintainer: Andrew Zammit-Mangion <andrewzm@gmail.com>
 Repository: CRAN
-Date/Publication: 2015-01-14 07:19:56
+Date/Publication: 2015-04-04 13:33:23
