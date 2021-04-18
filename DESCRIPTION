@@ -2,12 +2,13 @@ Package: EFDR
 Type: Package
 Title: Wavelet-Based Enhanced FDR for Detecting Signals from Complete
         or Incomplete Spatially Aggregated Data
-Version: 1.0
-Date: 2019-05-20
+Version: 1.2
+Date: 2021-04-18
 Authors@R: c(person("Andrew", "Zammit-Mangion", role = c("aut", "cre"),
     email = "andrewzm@gmail.com"),
     person("Hsin-Cheng", "Huang", role = "aut"))
-Suggests: knitr, ggplot2, RCurl, fields, gridExtra, animation
+Suggests: knitr, rmarkdown, markdown, ggplot2, RCurl, fields,
+        gridExtra, animation
 Description: Enhanced False Discovery Rate (EFDR) is a tool to detect anomalies
     in an image. The image is first transformed into the wavelet domain in
     order to decorrelate any noise components, following which the coefficients
@@ -23,15 +24,16 @@ Description: Enhanced False Discovery Rate (EFDR) is a tool to detect anomalies
 Imports: copula, Matrix, methods, foreach (>= 1.4.2), doParallel (>=
         1.0.8), waveslim (>= 1.7.5), parallel, gstat (>= 1.0-19), tidyr
         (>= 0.1.0.9000), dplyr (>= 0.3.0.2), sp (>= 1.0-15)
-URL: http://github.com/andrewzm/EFDR
-Depends: R (>= 3.3)
+URL: https://github.com/andrewzm/EFDR/
+Depends: R (>= 3.5.0)
 VignetteBuilder: knitr
 License: GPL (>= 2)
+Encoding: UTF-8
 NeedsCompilation: no
-RoxygenNote: 6.1.0
-Packaged: 2019-05-20 03:46:46 UTC; andrew
+RoxygenNote: 7.1.1
+Packaged: 2021-04-18 03:09:36 UTC; azm
 Author: Andrew Zammit-Mangion [aut, cre],
   Hsin-Cheng Huang [aut]
 Maintainer: Andrew Zammit-Mangion <andrewzm@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-05-20 04:20:30 UTC
+Date/Publication: 2021-04-18 05:50:03 UTC

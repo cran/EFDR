@@ -34,9 +34,9 @@ Z <- Z + rnorm(n^2)*0.5
 m1 <- test.bonferroni(Z, wf="la8",J=3, alpha = 0.05)
 m2 <- test.fdr(Z, wf="la8",J=3, alpha = 0.05)
 
-cat("Bonferroni diagnostic table: ",sep="\\n")
+cat("Bonferroni diagnostic table: ",sep="\n")
 diagnostic.table(sig,m1$reject_coeff,n = n^2)
-cat("FDR diagnostic table: ",sep="\\n")
+cat("FDR diagnostic table: ",sep="\n")
 diagnostic.table(sig,m2$reject_coeff,n = n^2)
 }
 \references{
